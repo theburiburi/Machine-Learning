@@ -48,6 +48,6 @@ print(B)
 join = pd.merge(left=A, right =B, how = 'inner')
 print(join)
 
-# # outer-join
-# join = pd.merge(left=A, right =B, how = 'outer')
-# print(join)
+# outer-join
+join = pd.merge(left=A, right =B, how = 'outer')
+print(join)
